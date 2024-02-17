@@ -36,8 +36,8 @@ if price_as_float < BUY_PRICE:
 #Put your email,pass,smtp address for eg:-Gmail: smtp.gmail.com, Hotmail: smtp.live.com, Outlook: outlook.office365.com,
     # Yahoo: smtp.mail.yahoo.com
     YOUR_SMTP_ADDRESS = "smtp.gmail.com"
-    YOUR_EMAIL = "nkmercurial10@gmail.com"
-    YOUR_PASSWORD = "utqfuvkgyoivunnq"
+    YOUR_EMAIL = "EMAIL"
+    YOUR_PASSWORD = "PASS"
     with smtplib.SMTP(YOUR_SMTP_ADDRESS, port=587) as connection:
         connection.starttls()
         result = connection.login(YOUR_EMAIL, YOUR_PASSWORD)
