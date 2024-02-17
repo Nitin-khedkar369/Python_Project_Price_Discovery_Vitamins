@@ -42,8 +42,8 @@ if price_as_float < BUY_PRICE:
     # Yahoo: smtp.mail.yahoo.com
 
     SMTP_ADDRESS = "smtp.gmail.com"
-    EMAIL = "nkmercurial10@gmail.com"
-    PASSWORD = "xjghncthrehqyjyd"
+    EMAIL = "EMAIL"
+    PASSWORD = "PASS"
     with smtplib.SMTP(SMTP_ADDRESS, port=587) as connection:
         connection.starttls()
         result = connection.login(EMAIL, PASSWORD)
